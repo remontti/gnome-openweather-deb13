@@ -1,6 +1,12 @@
 
 # OpenWeather Refined
 
+> [!IMPORTANT]
+> This extension has been superseded by [SimpleWeather](https://github.com/romanlefler/SimpleWeather).
+> This other account is me and I have remade the app since it is a simple enough extension to make from
+> scratch. The new version is way more stable and performant and doesn't have API key issues like the
+> this one.
+
 [![Screenshot](./openweather-screenshot.png)](./openweather-screenshot.png)
 
 OpenWeather Refined is a simple extension for displaying weather conditions and
