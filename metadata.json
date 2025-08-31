@@ -1,11 +1,11 @@
 {
-    "name": "OpenWeather Refined",
-    "description": "Display weather for the current or a specified location. Fork of OpenWeather.\nWeather data is provided by OpenWeatherMap.org or WeatherAPI.com or VisualCrossing.com.\nIf location is set to \"My Location,\" which is the case by default on laptops, this extension will use location services and Nominatim (from OpenStreetMap.org), or infoip.io if that failed.",
-    "shell-version": [ "45", "46", "47", "48" ],
-    "url": "https://github.com/penguin-teal/gnome-openweather",
-    "uuid": "openweather-extension@penguin-teal.github.io",
-    "settings-schema": "org.gnome.shell.extensions.openweatherrefined",
-    "gettext-domain": "gnome-shell-extension-openweatherrefined",
-    "version-name": "139",
-    "version": 139
+    "name": "OpenWeather Remontti",
+    "description": "Extensão para exibir o clima atual ou de uma localização definida. Fork mantido por Rudimar Remontti, baseado no OpenWeather Refined.\nDados fornecidos por OpenWeatherMap.org, WeatherAPI.com ou VisualCrossing.com.\nSe a localização estiver como \"Minha Localização\", a extensão usa serviços de geolocalização (OpenStreetMap.org / infoip.io).",
+    "shell-version": [ "47", "48" ],
+    "url": "https://github.com/remontti/gnome-openweather-deb13",
+    "uuid": "openweather-extension@remontti.github.io",
+    "settings-schema": "org.gnome.shell.extensions.openweather",
+    "gettext-domain": "gnome-shell-extension-openweather",
+    "version-name": "remontti-1",
+    "version": 140
 }
