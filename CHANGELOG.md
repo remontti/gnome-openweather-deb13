@@ -153,7 +153,7 @@ Features/Improvements:
 - Option to only show degree sign instead of deg. fahrenheit, deg. celsisus, etc.
 - Make manual refreshes refresh current location (for "My Location")
 - No more space between temperature and degree unit
-- About page now says "OpenWeather Refined" instead of "OpenWeather"
+- About page now says "OpenWeather Remontti" instead of "OpenWeather"
 - High contrast now mode affects entire pop-up
 - Major re-work in the way locations are stored internally
 - Automatic migration from old (pre-v128) location format

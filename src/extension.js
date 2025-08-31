@@ -222,7 +222,7 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
             }
             catch(e)
             {
-              console.log("OpenWeather Refined: Error in first boot timeout.");
+              console.log("OpenWeather Remontti: Error in first boot timeout.");
               console.error(e);
             }
           return false; // run timer once then destroy
@@ -238,15 +238,15 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
         }
         catch(e)
         {
-          console.log("OpenWeather Refined: Error in immediate first boot.");
+          console.log("OpenWeather Remontti: Error in immediate first boot.");
           console.error(e);
         }
       }
     }, (e) =>
     {
-      console.error(`OpenWeather Refined: Error '${e}' in loadConfig.`);
+      console.error(`OpenWeather Remontti: Error '${e}' in loadConfig.`);
       console.error(e);
-      Main.notify("OpenWeather Refined", _("Failed to initialize."));
+      Main.notify("OpenWeather Remontti", _("Failed to initialize."));
       let now = new Date();
       this.settings.set_string("last-init-error", `(${toYYYYMMDD(now)}) ${e}`);
     });
@@ -378,7 +378,7 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
 
     if (this.getWeatherKey().trim() === "")
       Main.notify(
-        "OpenWeather Refined",
+        "OpenWeather Remontti",
         _(
           "%s does not work without an api-key.\nEither set the switch to use the extensions default key in the preferences dialog to on or register at %s and paste your personal key into the preferences dialog."
         ).format(getWeatherProviderName(this.weatherProvider), getWeatherProviderUrl(this.weatherProvider))
@@ -437,7 +437,7 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
       let migrated = tryImportAndMigrate(this.settings);
       if(migrated)
       {
-        Main.notify("OpenWeather Refined", _("OpenWeather Refined: Imported settings from old extension."));
+        Main.notify("OpenWeather Remontti", _("OpenWeather Remontti: Imported settings from old extension."));
       }
 
       if(this.settings.get_enum("my-loc-prov") === MyLocProv.GEOCLUE)
@@ -450,7 +450,7 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
         }
         catch(e)
         {
-          console.warn(`OpenWeather Refined: Geoclue failed ('${e}'); changing provider to ipinfo.io.`);
+          console.warn(`OpenWeather Remontti: Geoclue failed ('${e}'); changing provider to ipinfo.io.`);
           this.settings.set_enum("my-loc-prov", MyLocProv.INFOIPIO);
         }
       }
@@ -526,7 +526,7 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
     }
     catch(e)
     {
-      console.error(`OpenWeather Refined: Error '${e}' in firstRunSetDefaults.`);
+      console.error(`OpenWeather Remontti: Error '${e}' in firstRunSetDefaults.`);
       throw e;
     }
 
@@ -631,7 +631,7 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
     }
     catch(e)
     {
-        console.log("OpenWeather Refined Error in settings listener.");
+        console.log("OpenWeather Remontti Error in settings listener.");
         console.error(e);
     }
   }
@@ -691,7 +691,7 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
       }
       catch(e)
       {
-        console.error(`OpenWeather Refined: Error in settings changed listener '${e}'.\n\t${e.trace}`);
+        console.error(`OpenWeather Remontti: Error in settings changed listener '${e}'.\n\t${e.trace}`);
       }
     });
   }
@@ -842,7 +842,7 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
     let i = this.settings.get_int("actual-city");
     if(i > this._cities.length - 1)
     {
-      console.warn("OpenWeather Refined: Got actual city too high.");
+      console.warn("OpenWeather Remontti: Got actual city too high.");
       i = this._cities.length - 1;
     }
 
@@ -869,7 +869,7 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
   {
     if(i > this._cities.length - 1)
     {
-      console.warn("OpenWeather Refined: Set actual city too high.");
+      console.warn("OpenWeather Remontti: Set actual city too high.");
       i = this._cities.length;
     }
 
@@ -1098,7 +1098,7 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
         let _twoMinsAgo = Date.now() - new Date(0).setMinutes(2.0);
         if (this._lastRefresh > _twoMinsAgo) {
           Main.notify(
-            "OpenWeather Refined",
+            "OpenWeather Remontti",
             _("Manual refreshes less than 2 minutes apart are ignored!")
           );
           return;
@@ -1245,7 +1245,7 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
       case WeatherUnits.NEWTON:
         return _("\u00B0N");
       default:
-        console.warn("OpenWeather Refined: Invalid tempeature unit.");
+        console.warn("OpenWeather Remontti: Invalid tempeature unit.");
         return "\u00B0";
     }
   }
@@ -1567,7 +1567,7 @@ class OpenWeatherMenuButton extends PanelMenu.Button {
         isHr12 = true;
         break;
       default:
-        console.warn("OpenWeather Refined invalid clock format.");
+        console.warn("OpenWeather Remontti invalid clock format.");
         // FALL THRU
       case ClockFormat.SYSTEM:
         isHr12 = _systemClockFormat === ClockFormat._12H;

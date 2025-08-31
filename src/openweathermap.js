@@ -85,7 +85,7 @@ async function refreshWeatherData()
         }
         else
         {
-          Main.notify(_("OpenWeather Refined Too Many Requests"),
+          Main.notify(_("OpenWeather Remontti Too Many Requests"),
             _("Provider %s has too many users. Try switching weather providers in settings.").format(provName));
 
           // Try reloading after 10 minutes
@@ -99,7 +99,7 @@ async function refreshWeatherData()
 
     if(!weather)
     {
-      console.warn("OpenWeather Refined: getWeatherInfo failed without an error.");
+      console.warn("OpenWeather Remontti: getWeatherInfo failed without an error.");
       // Try reloading after 10 minutes
       this.reloadWeatherCurrent(600);
       return;
@@ -114,7 +114,7 @@ async function refreshWeatherData()
   }
   catch(e)
   {
-    console.error(`OpenWeather Refined: ${e}`);
+    console.error(`OpenWeather Remontti: ${e}`);
     console.log(e.stack);
   }
 }
@@ -127,7 +127,7 @@ function populateCurrentUI()
     {
       /** @type {(Weather | null)} */
       let w = this.currentWeatherCache;
-      if(!w) reject("OpenWeather Refined: No weather cached.");
+      if(!w) reject("OpenWeather Remontti: No weather cached.");
 
       let location = this._city.getName(_);
       if(this._city.isMyLoc())
@@ -228,8 +228,8 @@ function populateTodaysUI() {
     try {
       // Populate today's forecast UI
       let weather = this.currentWeatherCache;
-      if(!weather) reject("OpenWeather Refined: No weather cached.");
-      if(!weather.hasForecast()) reject("OpenWeather Refined: No forecast.");
+      if(!weather) reject("OpenWeather Remontti: No weather cached.");
+      if(!weather.hasForecast()) reject("OpenWeather Remontti: No forecast.");
 
       for (let i = 0; i < 4; i++)
       {
@@ -254,8 +254,8 @@ function populateForecastUI() {
     try {
       // Populate N day / 3 hour forecast UI
       let weather = this.currentWeatherCache;
-      if(!weather) reject("OpenWeather Refined: No weather cached.");
-      if(!weather.hasForecast()) reject("OpenWeather Refined: No forecast.");
+      if(!weather) reject("OpenWeather Remontti: No weather cached.");
+      if(!weather.hasForecast()) reject("OpenWeather Remontti: No forecast.");
 
       let hrsToMidnight = 24 - new Date().getHours();
       let dayCount = Math.min(this._days_forecast + 1, weather.forecastDayCount());

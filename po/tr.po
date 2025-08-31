@@ -49,8 +49,8 @@ msgstr ""
 "%s adresine kayıt olup kendi kişisel anahtarınızı ekleyebilirsiniz."
 
 #: src/extension.js:432
-msgid "OpenWeather Refined: Imported settings from old extension."
-msgstr "OpenWeather Refined: Ayarlar eski eklentiden aktarıldı."
+msgid "OpenWeather Remontti: Imported settings from old extension."
+msgstr "OpenWeather Remontti: Ayarlar eski eklentiden aktarıldı."
 
 #: src/extension.js:745 src/extension.js:758
 #, javascript-format
@@ -385,7 +385,7 @@ msgid "My location refresh interval in minutes"
 msgstr "Konumumu dakika cinsinden yenileme sıklığı"
 
 #: src/preferences/generalPage.js:134
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:122
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:122
 msgid "Disable Forecast"
 msgstr "Hava Tahminini Devre Dışı Bırak"
 
@@ -395,7 +395,7 @@ msgstr ""
 "Hava tahmini verisinin alınmasını ve işlenmesini tamamen devre dışı bırakır"
 
 #: src/preferences/generalPage.js:146
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:110
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:110
 msgid "System Icons"
 msgstr "Sistem Simgeleri"
 
@@ -483,7 +483,7 @@ msgid "Provider"
 msgstr "Sağlayıcı"
 
 #: src/preferences/generalPage.js:287
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:67
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:67
 msgid "Weather Provider"
 msgstr "Hava Durumu Sağlayıcısı"
 
@@ -611,7 +611,7 @@ msgid "Wind Direction Arrows"
 msgstr "Rüzgar Yönü Okları"
 
 #: src/preferences/layoutPage.js:176
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:102
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:102
 msgid "Translate Conditions"
 msgstr "Koşulları Çevir"
 
@@ -799,8 +799,8 @@ msgstr "Bilinmeyen"
 
 #: src/preferences/aboutPage.js:84
 #, fuzzy
-msgid "OpenWeather Refined Version"
-msgstr "OpenWeather Refined Sürümü"
+msgid "OpenWeather Remontti Version"
+msgstr "OpenWeather Remontti Sürümü"
 
 #: src/preferences/aboutPage.js:96
 msgid "Git Version"
@@ -876,7 +876,7 @@ msgid "Provider for getting My Location"
 msgstr "Konum arama için kullanılan sağlayıcı"
 
 #: src/preferences/locationsPage.js:85
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:71
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:71
 msgid "Geolocation Provider"
 msgstr "Coğrafi Konum Sağlayıcısı"
 
@@ -983,19 +983,19 @@ msgstr "İptal Et"
 msgid "%s has been deleted"
 msgstr "%s silindi"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:75
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:75
 msgid "Temperature Unit"
 msgstr "Sıcaklık Birimi"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:79
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:79
 msgid "Pressure Unit"
 msgstr "Basınç Birimi"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:83
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:83
 msgid "Wind Speed Units"
 msgstr "Rüzgar Hızı Birimleri"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:84
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:84
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/"
 "s', 'knots', 'ft/s' or 'Beaufort'."
@@ -1003,116 +1003,116 @@ msgstr ""
 "Hava hızı için kullanılacak birimleri seçin. İzin verilen değerler 'kph', "
 "'mph', 'm/s', 'knots', 'ft/s' ve 'Beaufort'."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:88
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:88
 msgid "Wind Direction by Arrows"
 msgstr "Oklarla Rüzgar Yönü"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:89
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:89
 #, fuzzy
 msgid "True to display wind direction through arrows rather than letters."
 msgstr "Rüzgar yönünü harfler yerine oklarla göstermeyi seçin."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:94
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:94
 #, fuzzy
 msgid "DEPRECATED, City to be displayed"
 msgstr "Gösterilen şehir"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:98
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:98
 msgid "Index of the city to display by default."
 msgstr "Varsayılan olarak gösterilecek şehrin numarası."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:106
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:106
 msgid "OpenWeatherMap Multilingual Support (weather descriptions only)"
 msgstr "OpenWeatherMap Çoklu Dil Desteği (yalnızca hava tasvirleri)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:114
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:114
 #, fuzzy
 msgid "True to show temperature in the panel"
 msgstr "Sıcaklığı panelde göster"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:118
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:118
 #, fuzzy
 msgid "True to show conditions in the panel."
 msgstr "Hava koşullarını panelde göster"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:126
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:126
 msgid "Conditions in Forecast"
 msgstr "Hava Tahmini Koşulları"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:130
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:134
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:130
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:134
 msgid "Position in Panel"
 msgstr "Paneldeki Konum"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:138
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:138
 msgid "Horizontal position of menu-box."
 msgstr "Menü kutusunun yatay konumu."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:142
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:142
 msgid "Refresh interval (actual weather)"
 msgstr "Yenileme sıklığı (gerçek hava durumu)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:146
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:146
 #, fuzzy
 msgid "Maximum length of the location text"
 msgstr "Konum metninin azami uzunluğu"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:150
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:150
 msgid "Refresh interval (forecast)"
 msgstr "Yenileme sıklığı (hava tahmin)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:154
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:154
 msgid "Center forecastbox."
 msgstr "Merkez hava tahmini kutusu."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:158
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:158
 msgid "Always keep forecast expanded"
 msgstr "Hava tahminini daima genişletilmiş tut"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:162
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:162
 msgid "Number of days in forecast"
 msgstr "Hava tahminindeki gün sayısı"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:166
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:166
 #, fuzzy
 msgid "Maximum number of digits after the decimal point for temperature"
 msgstr "Sıcaklık için ondalık noktadan sonraki azami basamak sayısı"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:170
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:170
 #, fuzzy
 msgid "Maximum number of digits after the decimal point for pressure"
 msgstr "Basınç için ondalık noktadan sonraki azami basamak sayısı"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:174
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:174
 #, fuzzy
 msgid "Maximum number of digits after the decimal point for wind speed"
 msgstr "Rüzgar hızı için ondalık noktadan sonraki azami basamak sayısı"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:178
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:178
 msgid "Your personal API key from openweathermap.org"
 msgstr "openweathermap.org adresinden kişisel API anahtarınız"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:182
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:182
 #, fuzzy
 msgid "Your personal API key from WeatherAPI.com"
 msgstr "WeatherAPI.com adresinden kişisel API anahtarınız"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:186
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:186
 msgid "Use the extensions default API key from openweathermap.org"
 msgstr ""
 "openweathermap.org adresinden uzantıların varsayılan API anahtarını kullan"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:190
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:190
 #, fuzzy
 msgid "Use the extensions default API key from WeatherAPI.com"
 msgstr ""
 "WeatherAPI.com adresinden uzantıların varsayılan API anahtarını kullan"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:194
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:194
 msgid "Your personal AppKey from developer.mapquest.com"
 msgstr "developer.mapquest.com adresinden kişisel uygulama anahtarınız"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:198
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:198
 msgid ""
 "Time format for hours. Possible values are '24hr' for 24-hour clock, '12hr' "
 "for AM/PM, and 'system' to follow the GNOME setting."
@@ -1120,30 +1120,30 @@ msgstr "Saatler için zaman formatı. Muhtemel değerler; 24 saatlik format içi
 "'24hr', ÖÖ/ÖS formatı için '12hr', ve GNOME ayarlarını takipe etmek için "
 "'system'dir."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:202
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:202
 msgid "Seconds to delay popup initialization and data fetch on the first load"
 msgstr "İlk yüklemede açılır pencere yükleme ve veri alma gecikmesi (saniye)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:206
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:206
 msgid "Default width for the preferences window"
 msgstr "Tercihler penceresinin varsayılan genişliği"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:210
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:210
 msgid "Default height for the preferences window"
 msgstr "Tercihler penceresinin varsayılan yüksekliği"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:214
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:214
 msgid ""
 "High contrast style to use, possible values are 'none', 'white', or 'black'."
 msgstr "Kullanılacak yüksek kontrast stili. Muhtemel değerler 'none', 'white' "
 "veya 'black'dir."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:218
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:218
 #, fuzzy
 msgid "True to show the sunset/sunrise in the panel."
 msgstr "Gün doğumu/Gün batımını panelde göster"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:222
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:222
 msgid ""
 "True to show the sunset/sunrise in the panel before the temperature/"
 "conditions if enabled."
@@ -1151,33 +1151,33 @@ msgstr ""
 "Hava durumu şartları etkinleştirildiyse panelde güneş batışı/doğuşunu "
 "sıcaklıktan önce göstermek için True."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:226
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:226
 msgid "False if this extension has never been initialized before."
 msgstr "Bu uzantı daha önce başlatılmadıysa False."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:230
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:230
 msgid "How often, in minutes, to re-fetch My Location if selected."
 msgstr "Seçildiyse, konumu yeniden güncellemenin dakika cinsinden sıklığı."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:234
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:234
 msgid "True to cut off the \"F\" or \"C\" after the degree symbol."
 msgstr "Derece sembolünden sonra \"F\" veya \"C\"'yi kaldırmak için True."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:238
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:238
 msgid "Freezes the settings changed listener; user should not change this."
 msgstr "Ayarlar değiştiğinde dinleyiciyi dondurur; kullanıcı bunu değiştirmemeli."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:243
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:243
 #, fuzzy
 msgid "List of locations."
 msgstr "Konumların listesi."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:247
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:247
 #, fuzzy
 msgid "Provider to use for \"My Location.\""
 msgstr "\"Konumum\" için kullanılan sağlayıcı"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:251
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:251
 msgid "Empty or the last initialization error message."
 msgstr "Boş veya son başlatma hatası iletileri."
 

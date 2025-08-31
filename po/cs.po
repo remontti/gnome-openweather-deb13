@@ -24,7 +24,7 @@ msgstr ""
 "X-Generator: Poedit 3.4.4\n"
 
 #: src/openweathermap.js:88
-msgid "OpenWeather Refined Too Many Requests"
+msgid "OpenWeather Remontti Too Many Requests"
 msgstr "OpenWeather poslal příliš mnoho dotazů"
 
 #: src/openweathermap.js:89
@@ -582,8 +582,8 @@ msgstr ""
 "dialogu nastavení."
 
 #: src/extension.js:439
-msgid "OpenWeather Refined: Imported settings from old extension."
-msgstr "OpenWeather Refined: Importovaná nastavení ze starého rozšíření."
+msgid "OpenWeather Remontti: Imported settings from old extension."
+msgstr "OpenWeather Remontti: Importovaná nastavení ze starého rozšíření."
 
 #: src/extension.js:756 src/extension.js:769
 #, javascript-format
@@ -943,7 +943,7 @@ msgid "Wind Direction Arrows"
 msgstr "Směr větru jako šipku"
 
 #: src/preferences/layoutPage.js:176
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:103
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:103
 msgid "Translate Conditions"
 msgstr "Překládat stav počasí"
 
@@ -1104,7 +1104,7 @@ msgstr ""
 "Zobrazí informace o počasí pro jakékoli místo na světě v panelu GNOME Shell."
 
 #: src/preferences/aboutPage.js:93
-msgid "OpenWeather Refined Version"
+msgid "OpenWeather Remontti Version"
 msgstr "Verze"
 
 #: src/preferences/aboutPage.js:105
@@ -1285,7 +1285,7 @@ msgid "My location refresh interval in minutes"
 msgstr "Interval obnovování mé polohy v minutách"
 
 #: src/preferences/generalPage.js:169
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:123
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:123
 msgid "Disable Forecast"
 msgstr "Vypnout předpověď"
 
@@ -1294,7 +1294,7 @@ msgid "Disables all fetching and processing of forecast data"
 msgstr "Zakáže veškeré načítání a zpracování dat předpovědi"
 
 #: src/preferences/generalPage.js:181
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:111
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:111
 msgid "System Icons"
 msgstr "Systémové ikony"
 
@@ -1413,7 +1413,7 @@ msgid "Adaptive"
 msgstr "Adaptivní"
 
 #: src/preferences/generalPage.js:359
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:68
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:68
 msgid "Weather Provider"
 msgstr "Poskytovatel počasí"
 
@@ -1478,7 +1478,7 @@ msgid "Provider for getting My Location"
 msgstr "Poskytovatel vyhledávání mé polohy"
 
 #: src/preferences/locationsPage.js:85
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:72
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:72
 msgid "Geolocation Provider"
 msgstr "Poskytovatel geolokace"
 
@@ -1585,19 +1585,19 @@ msgstr "Zrušit"
 msgid "%s has been deleted"
 msgstr "%s bylo odstraněno"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:76
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:76
 msgid "Temperature Unit"
 msgstr "Jednotka teploty"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:80
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:80
 msgid "Pressure Unit"
 msgstr "Jednotka tlaku"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:84
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:84
 msgid "Wind Speed Units"
 msgstr "Jednotky rychlosti větru"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:85
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:85
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/"
 "s', 'knots', 'ft/s' or 'Beaufort'."
@@ -1605,105 +1605,105 @@ msgstr ""
 "Vyberte jednotky použité pro zobrazení rychlosti větru. Povolené hodnoty "
 "jsou 'kph', 'mph', 'm/s', 'knots', 'ft/s' nebo 'Beaufort'."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:89
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:89
 msgid "Wind Direction by Arrows"
 msgstr "Směr větru jako šipku"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:90
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:90
 msgid "True to display wind direction through arrows rather than letters."
 msgstr "Zobraz směr větru pomocí šipky místo písmene."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:95
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:95
 msgid "DEPRECATED, City to be displayed"
 msgstr "Zobrazované město"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:99
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:99
 msgid "Index of the city to display by default."
 msgstr "Index města, které se má zobrazit ve výchozím nastavení."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:107
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:107
 msgid "Provider multilingual Support (weather descriptions only)"
 msgstr "Vícejazyčná podpora poskytovatele (pouze popisy počasí)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:115
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:115
 msgid "True to show temperature in the panel"
 msgstr "Zobraz teplotu v panelu"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:119
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:119
 msgid "True to show conditions in the panel."
 msgstr "Zobraz stav počasí v panelu."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:127
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:127
 msgid "Conditions in Forecast"
 msgstr "Stav počasí v předpovědi"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:131
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:135
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:131
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:135
 msgid "Position in Panel"
 msgstr "Umístění na panelu"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:139
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:139
 msgid "Horizontal position of menu-box."
 msgstr "Vodorovná pozice nabídky."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:143
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:143
 msgid "Refresh interval (actual weather)"
 msgstr "Interval obnovy (aktuální počasí)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:147
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:147
 msgid "Maximum length of the location text"
 msgstr "Maximální délka textu Lokace"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:151
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:151
 msgid "Refresh interval (forecast)"
 msgstr "Interval obnovy (předpověď)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:155
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:155
 msgid "Center forecastbox."
 msgstr "Vystředit předpověď."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:159
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:159
 msgid "Always keep forecast expanded"
 msgstr "Udržuj panel předpovědi stále rozbalený"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:163
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:163
 msgid "Number of days in forecast"
 msgstr "Počet dnů v předpovědi"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:167
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:167
 msgid "Maximum number of digits after the decimal point for temperature"
 msgstr "Maximální počet číslic teploty za desetinnou čárkou"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:171
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:171
 msgid "Maximum number of digits after the decimal point for pressure"
 msgstr "Maximální počet číslic tlaku za desetinnou čárkou"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:175
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:175
 msgid "Maximum number of digits after the decimal point for wind speed"
 msgstr "Maximální počet číslic rychlosti větru za desetinnou čárkou"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:180
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:180
 msgid "DEPRECATED. Your personal API key from openweathermap.org"
 msgstr "ZRUŠENO. Váš osobní API klíč pro openweathermap.org"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:185
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:185
 msgid "DEPRECATED. Your personal API key from WeatherAPI.com"
 msgstr "ZRUŠENO. Váš osobní API klíč pro WeatherAPI.com"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:190
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:190
 msgid "DEPRECATED. Use the extensions default API key from openweathermap.org"
 msgstr ""
 "ZRUŠENO. Použít výchozí API klíč tohoto rozšíření pro openweathermap.org"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:195
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:195
 msgid "DEPRECATED. Use the extensions default API key from WeatherAPI.com"
 msgstr "ZRUŠENO. Použij vestavěný API klíč pro WeatherAPI.com"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:199
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:199
 msgid "Your personal AppKey from developer.mapquest.com"
 msgstr "Váš osobní App klíč od developer.mapquest.com"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:203
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:203
 msgid ""
 "Time format for hours. Possible values are '24hr' for 24-hour clock, '12hr' "
 "for AM/PM, and 'system' to follow the GNOME setting."
@@ -1711,32 +1711,32 @@ msgstr ""
 "Formát zobrazení hodin. Hodnoty: '24h', '12h' pro AM/PM a 'Systém' pro "
 "nastavení dle GNOME."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:207
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:207
 msgid "Seconds to delay popup initialization and data fetch on the first load"
 msgstr ""
 "Sekundy pro zpoždění inicializace vyskakovacího okna a načtení dat při "
 "prvním načtení"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:211
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:211
 msgid "Default width for the preferences window"
 msgstr "Výchozí šířka okna Nastavení"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:215
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:215
 msgid "Default height for the preferences window"
 msgstr "Výchozí výška okna Nastavení"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:219
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:219
 msgid ""
 "High contrast style to use, possible values are 'none', 'white', or 'black'."
 msgstr ""
 "Styl s vysokým kontrastem, možné hodnoty jsou \"Ne\", \"Bílý\" nebo "
 "\"Černý\"."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:223
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:223
 msgid "True to show the sunset/sunrise in the panel."
 msgstr "Zobraz východ/západ slince v panelu."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:227
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:227
 msgid ""
 "True to show the sunset/sunrise in the panel before the temperature/"
 "conditions if enabled."
@@ -1744,38 +1744,38 @@ msgstr ""
 "Zobrazení západu/ východu slunce na panelu před teplotou/podmínkami, je-li "
 "povoleno."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:231
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:231
 msgid "False if this extension has never been initialized before."
 msgstr "False, pokud toto rozšíření nebylo nikdy předtím inicializováno."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:235
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:235
 msgid "How often, in minutes, to re-fetch My Location if selected."
 msgstr "Četnost načítání mé polohy v minutách, pokud je vybrána."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:239
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:239
 msgid "True to cut off the \"F\" or \"C\" after the degree symbol."
 msgstr "Zrušit písmeno \"F\" nebo \"C\" za symbolem stupně."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:243
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:243
 msgid "Freezes the settings changed listener; user should not change this."
 msgstr "Freezes the settings changed listener; uživatel by toto neměl měnit."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:248
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:248
 msgid "List of locations."
 msgstr "Seznam míst."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:252
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:252
 msgid "Provider to use for \"My Location.\""
 msgstr "Poskytovatel používaný pro vyhledávání polohy"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:256
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:256
 msgid "Empty or the last initialization error message."
 msgstr "Poslední chybová zpráva inicializace."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:260
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:260
 msgid "Custom keys for weather providers."
 msgstr "Vlastní klíče pro poskytovatele počasí."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:264
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:264
 msgid "Get a notification when precipitation starts."
 msgstr "Získejte upozornění na začátek srážek."

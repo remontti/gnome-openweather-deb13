@@ -1,5 +1,5 @@
 
-# OpenWeather Refined
+# OpenWeather Remontti
 
 > [!IMPORTANT]
 > This extension has been superseded by [SimpleWeather](https://github.com/romanlefler/SimpleWeather).
@@ -9,7 +9,7 @@
 
 [![Screenshot](./openweather-screenshot.png)](./openweather-screenshot.png)
 
-OpenWeather Refined is a simple extension for displaying weather conditions and
+OpenWeather Remontti is a simple extension for displaying weather conditions and
 forecasts for any location on Earth in the GNOME Shell.
 
 The extension is very configurable and does not use GNOME Weather.
@@ -51,8 +51,8 @@ Edit the `msgstr` field to the translation for the English in `msgid`.
 If you want a package for another platform, create an [issue](https://github.com/penguin-teal/gnome-openweather/issues/new/choose).
 If you make a package, let me know or make a pull request and list it below.
 
-- Arch AUR [gnome-shell-extension-openweatherrefined](https://aur.archlinux.org/packages/gnome-shell-extension-openweatherrefined)
-- Fedora Copr [gnome-shell-extension-openweatherrefined](https://copr.fedorainfracloud.org/coprs/fiftydinar/gnome-shell-extension-openweatherrefined/) by [@fiftydinar](https://github.com/fiftydinar)
+- Arch AUR [gnome-shell-extension-openweather](https://aur.archlinux.org/packages/gnome-shell-extension-openweather)
+- Fedora Copr [gnome-shell-extension-openweather](https://copr.fedorainfracloud.org/coprs/fiftydinar/gnome-shell-extension-openweather/) by [@fiftydinar](https://github.com/fiftydinar)
 
 ### Install From Source
 
@@ -133,6 +133,6 @@ under the GPLv3 license.
 
 ### License
 
-OpenWeather Refined is free software available under the terms of the GPLv3
+OpenWeather Remontti is free software available under the terms of the GPLv3
 license. See [`COPYING`](./COPYING) for details.
 

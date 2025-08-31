@@ -48,7 +48,7 @@ msgstr ""
 "您的个人密钥粘贴到选项对话框中。"
 
 #: src/extension.js:432
-msgid "OpenWeather Refined: Imported settings from old extension."
+msgid "OpenWeather Remontti: Imported settings from old extension."
 msgstr ""
 
 #: src/extension.js:745 src/extension.js:758
@@ -383,7 +383,7 @@ msgid "My location refresh interval in minutes"
 msgstr "以分钟为单位的当前天气刷新间隔"
 
 #: src/preferences/generalPage.js:134
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:122
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:122
 msgid "Disable Forecast"
 msgstr "禁用天气预报"
 
@@ -392,7 +392,7 @@ msgid "Disables all fetching and processing of forecast data"
 msgstr "禁用所有天气预报数据的获取和处理"
 
 #: src/preferences/generalPage.js:146
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:110
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:110
 msgid "System Icons"
 msgstr "系统图标"
 
@@ -475,7 +475,7 @@ msgid "Provider"
 msgstr "提供源"
 
 #: src/preferences/generalPage.js:287
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:67
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:67
 msgid "Weather Provider"
 msgstr "天气提供源"
 
@@ -601,7 +601,7 @@ msgid "Wind Direction Arrows"
 msgstr "使用箭头指示风向"
 
 #: src/preferences/layoutPage.js:176
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:102
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:102
 msgid "Translate Conditions"
 msgstr "翻译天气状态"
 
@@ -786,7 +786,7 @@ msgstr "未知"
 
 #: src/preferences/aboutPage.js:84
 #, fuzzy
-msgid "OpenWeather Refined Version"
+msgid "OpenWeather Remontti Version"
 msgstr "OpenWeather 版本"
 
 #: src/preferences/aboutPage.js:96
@@ -861,7 +861,7 @@ msgid "Provider for getting My Location"
 msgstr "位置搜索的提供源"
 
 #: src/preferences/locationsPage.js:85
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:71
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:71
 msgid "Geolocation Provider"
 msgstr "地理位置提供源"
 
@@ -967,192 +967,192 @@ msgstr "取消"
 msgid "%s has been deleted"
 msgstr "%s 已被删除"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:75
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:75
 msgid "Temperature Unit"
 msgstr "温度单位"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:79
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:79
 msgid "Pressure Unit"
 msgstr "气压单位"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:83
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:83
 msgid "Wind Speed Units"
 msgstr "风速单位"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:84
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:84
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/"
 "s', 'knots', 'ft/s' or 'Beaufort'."
 msgstr "选择风速单位。允许使用 kph、mph、m/s、knots、ft/s 或蒲福风级。"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:88
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:88
 msgid "Wind Direction by Arrows"
 msgstr "使用箭头指示风向"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:89
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:89
 #, fuzzy
 msgid "True to display wind direction through arrows rather than letters."
 msgstr "选择通过箭头还是文字来显示风向。"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:94
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:94
 #, fuzzy
 msgid "DEPRECATED, City to be displayed"
 msgstr "要显示的城市"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:98
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:98
 msgid "Index of the city to display by default."
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:106
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:106
 msgid "OpenWeatherMap Multilingual Support (weather descriptions only)"
 msgstr "OpenWeatherMap 多语言支持（仅限天气描述）"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:114
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:114
 #, fuzzy
 msgid "True to show temperature in the panel"
 msgstr "在面板上显示气温"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:118
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:118
 #, fuzzy
 msgid "True to show conditions in the panel."
 msgstr "在面板上显示天气状态"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:126
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:126
 msgid "Conditions in Forecast"
 msgstr "显示天气状态"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:130
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:134
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:130
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:134
 msgid "Position in Panel"
 msgstr "在面板上的位置"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:138
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:138
 msgid "Horizontal position of menu-box."
 msgstr "菜单框的水平位置。"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:142
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:142
 msgid "Refresh interval (actual weather)"
 msgstr "刷新间隔（实际天气）"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:146
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:146
 #, fuzzy
 msgid "Maximum length of the location text"
 msgstr "位置文本最大长度"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:150
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:150
 msgid "Refresh interval (forecast)"
 msgstr "刷新间隔（预报天气）"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:154
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:154
 msgid "Center forecastbox."
 msgstr "预报框居中。"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:158
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:158
 msgid "Always keep forecast expanded"
 msgstr "始终保持天气预报展开"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:162
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:162
 msgid "Number of days in forecast"
 msgstr "预报的天数"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:166
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:166
 #, fuzzy
 msgid "Maximum number of digits after the decimal point for temperature"
 msgstr "小数点后最大位数"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:170
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:170
 #, fuzzy
 msgid "Maximum number of digits after the decimal point for pressure"
 msgstr "小数点后最大位数"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:174
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:174
 #, fuzzy
 msgid "Maximum number of digits after the decimal point for wind speed"
 msgstr "小数点后最大位数"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:178
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:178
 msgid "Your personal API key from openweathermap.org"
 msgstr "您来自 openweathermap.org 的个人 API 密钥"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:182
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:182
 #, fuzzy
 msgid "Your personal API key from WeatherAPI.com"
 msgstr "您来自 openweathermap.org 的个人 API 密钥"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:186
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:186
 msgid "Use the extensions default API key from openweathermap.org"
 msgstr "使用本扩展默认的 openweathermap.org API 密钥"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:190
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:190
 #, fuzzy
 msgid "Use the extensions default API key from WeatherAPI.com"
 msgstr "使用本扩展默认的 openweathermap.org API 密钥"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:194
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:194
 msgid "Your personal AppKey from developer.mapquest.com"
 msgstr "您来自 developer.mapquest.com 的个人 AppKey"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:198
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:198
 msgid ""
 "Time format for hours. Possible values are '24hr' for 24-hour clock, '12hr' "
 "for AM/PM, and 'system' to follow the GNOME setting."
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:202
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:202
 msgid "Seconds to delay popup initialization and data fetch on the first load"
 msgstr "首次加载时弹出初始化和数据获取的延迟秒数"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:206
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:206
 msgid "Default width for the preferences window"
 msgstr "首选项窗口的默认宽度"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:210
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:210
 msgid "Default height for the preferences window"
 msgstr "首选项窗口的默认高度"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:214
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:214
 msgid ""
 "High contrast style to use, possible values are 'none', 'white', or 'black'."
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:218
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:218
 #, fuzzy
 msgid "True to show the sunset/sunrise in the panel."
 msgstr "在面板上显示气温"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:222
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:222
 msgid ""
 "True to show the sunset/sunrise in the panel before the temperature/"
 "conditions if enabled."
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:226
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:226
 msgid "False if this extension has never been initialized before."
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:230
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:230
 msgid "How often, in minutes, to re-fetch My Location if selected."
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:234
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:234
 msgid "True to cut off the \"F\" or \"C\" after the degree symbol."
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:238
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:238
 msgid "Freezes the settings changed listener; user should not change this."
 msgstr ""
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:243
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:243
 #, fuzzy
 msgid "List of locations."
 msgstr "位置"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:247
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:247
 #, fuzzy
 msgid "Provider to use for \"My Location.\""
 msgstr "位置搜索的提供源"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:251
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:251
 msgid "Empty or the last initialization error message."
 msgstr ""
 

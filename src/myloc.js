@@ -1,18 +1,18 @@
 /*
-   This file is part of OpenWeather Refined (gnome-shell-extension-openweatherrefined).
+   This file is part of OpenWeather Remontti (gnome-shell-extension-openweather).
 
-   OpenWeather Refined is free software: you can redistribute it and/or modify
+   OpenWeather Remontti is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by the
    Free Software Foundation, either version 3 of the License, or (at your
    option) any later version.
 
-   OpenWeather Refined is distributed in the hope that it will be useful,
+   OpenWeather Remontti is distributed in the hope that it will be useful,
    but WITHOUT ANY WARRANTY; without even the implied warranty of
    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    See the GNU General Public License for more details.
 
    You should have received a copy of the GNU General Public License along with
-   OpenWeather Refined. If not, see <https://www.gnu.org/licenses/>.
+   OpenWeather Remontti. If not, see <https://www.gnu.org/licenses/>.
 
    Copyright 2024 TealPenguin
 */
@@ -114,7 +114,7 @@ async function httpGetLoc(locProv)
       addr = "https://api.infoip.io";
       break;
     default:
-      console.error(`OpenWeather Refined: HTTP Get Loc called when it shouldn't have been.`);
+      console.error(`OpenWeather Remontti: HTTP Get Loc called when it shouldn't have been.`);
       return Promise.reject("Illegal call");
   }
 
@@ -146,7 +146,7 @@ async function httpGetLoc(locProv)
           locationInfo = null;
           fetchingLocation = false;
           locationTime = new Date();
-          reject("OpenWeather Refined: Invalid response");
+          reject("OpenWeather Remontti: Invalid response");
           return;
         }
 
@@ -156,7 +156,7 @@ async function httpGetLoc(locProv)
           locationInfo = null;
           fetchingLocation = false;
           locationTime = new Date();
-          reject("OpenWeather Refined: No data in JSON My Location HTTP response.");
+          reject("OpenWeather Remontti: No data in JSON My Location HTTP response.");
           return;
         }
         let obj = JSON.parse(str);
@@ -185,7 +185,7 @@ export async function geoclueGetLoc(useNominatim = true)
   let locInfo = await new Promise((resolve, reject) => {
     fetchingLocation = true;
     Geoclue.Simple.new(
-      "gnome-shell-extension-openweatherrefined",
+      "gnome-shell-extension-openweather",
       Geoclue.AccuracyLevel.NEIGHBORHOOD,
       null,
       (_s, result) => {
@@ -199,7 +199,7 @@ export async function geoclueGetLoc(useNominatim = true)
         {
           fetchingLocation = false;
           locationTime = new Date();
-          reject(`OpenWeather Refined: ${e}`);
+          reject(`OpenWeather Remontti: ${e}`);
           return;
         }
 
@@ -265,7 +265,7 @@ export async function geoclueGetLoc(useNominatim = true)
           locationInfo = locInfo;
           fetchingLocation = false;
           locationTime = new Date();
-          reject("OpenWeather Refined: Invalid response from Nominatim.");
+          reject("OpenWeather Remontti: Invalid response from Nominatim.");
           return;
         }
 
@@ -275,7 +275,7 @@ export async function geoclueGetLoc(useNominatim = true)
           locationInfo = locInfo;
           fetchingLocation = false;
           locationTime = new Date();
-          reject("OpenWeather Refined: No data in JSON Nominatim HTTP response.");
+          reject("OpenWeather Remontti: No data in JSON Nominatim HTTP response.");
           return;
         }
         let obj = JSON.parse(str);
@@ -309,14 +309,14 @@ export async function getLocationInfo(settings, forceRefresh = false)
 {
   if(settings === undefined)
   {
-    console.error("OpenWeather Refined: getLocationInfo did not receive a settings argument. Pass 'null' to get settings automatically.");
-    console.trace("OpenWeather Refined backtrace");
+    console.error("OpenWeather Remontti: getLocationInfo did not receive a settings argument. Pass 'null' to get settings automatically.");
+    console.trace("OpenWeather Remontti backtrace");
   }
 
   let now = new Date();
   if(fetchingLocation)
   {
-    console.warn("OpenWeather Refined: Location requested while fetching it; returning cached location.");
+    console.warn("OpenWeather Remontti: Location requested while fetching it; returning cached location.");
   }
   else
   {

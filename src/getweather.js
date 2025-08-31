@@ -425,7 +425,7 @@ export class Weather
     this.#forecasts = forecasts ? forecasts.length > 0 ? forecasts : null : null;
 
     if(typeof condition === "string") this.#condition = condition;
-    else throw new Error(`OpenWeather Refined Weather Condition '${condition}' was type '${typeof condition}' not string.`);
+    else throw new Error(`OpenWeather Remontti Weather Condition '${condition}' was type '${typeof condition}' not string.`);
   }
 
   /**
@@ -799,13 +799,13 @@ export async function getWeatherInfo(extension, gettext)
         }
         catch(e)
         {
-          console.error(`OpenWeather Refined: Failed to fetch weather from OpenWeatherMap ('${e.message}').`);
+          console.error(`OpenWeather Remontti: Failed to fetch weather from OpenWeatherMap ('${e.message}').`);
           return null;
         }
 
         if(!isSuccess(response[0]) || !isSuccess(forecastResponse[0]))
         {
-          console.error(`OpenWeather Refined: Invalid API Response from OpenWeatherMap ` +
+          console.error(`OpenWeather Remontti: Invalid API Response from OpenWeatherMap ` +
             `${response[0]}/${forecastResponse[0]}: '${response[1]?.message}'` +
             `/'${forecastResponse[1]?.message}'.`);
 
@@ -910,7 +910,7 @@ export async function getWeatherInfo(extension, gettext)
         }
         catch(e)
         {
-          console.error(`OpenWeather Refined: Failed to fetch weather from weatherapi.com ('${e.message}').`);
+          console.error(`OpenWeather Remontti: Failed to fetch weather from weatherapi.com ('${e.message}').`);
           return null;
         }
 
@@ -921,7 +921,7 @@ export async function getWeatherInfo(extension, gettext)
           let f;
           if(json && json.error) f = json.error.message;
           else f = `Status Code ${statusCode}`;
-          console.error(`OpenWeather Refined: Invalid API Response from WeatherAPI.com '${f}'.`);
+          console.error(`OpenWeather Remontti: Invalid API Response from WeatherAPI.com '${f}'.`);
 
           if(statusCode === 403 && json?.error?.code === 2007) throw new TooManyReqError(WeatherProvider.WEATHERAPICOM);
           return null;
@@ -1033,7 +1033,7 @@ export async function getWeatherInfo(extension, gettext)
         }
         catch(e)
         {
-          console.error(`OpenWeather Refined: Failed to fetch weather from visualcrossing.com ('${e.message}').`);
+          console.error(`OpenWeather Remontti: Failed to fetch weather from visualcrossing.com ('${e.message}').`);
           return null;
         }
 
@@ -1046,7 +1046,7 @@ export async function getWeatherInfo(extension, gettext)
           let f;
           if(json && json.error) f = json.error.message;
           else f = `Status Code ${statusCode}`;
-          console.error(`OpenWeather Refined: Invalid API Response from VisualCrossing.com '${f}'.`);
+          console.error(`OpenWeather Remontti: Invalid API Response from VisualCrossing.com '${f}'.`);
 
           if(statusCode === 429) throw new TooManyReqError(WeatherProvider.VISUALCROSSING);
           return null;
@@ -1131,13 +1131,13 @@ export async function getWeatherInfo(extension, gettext)
         }
         catch(e)
         {
-          console.error(`OpenWeather Refined: Failed to fetch weather from weatherapi.com ('${e.message}').`);
+          console.error(`OpenWeather Remontti: Failed to fetch weather from weatherapi.com ('${e.message}').`);
           return null;
         }
       }
 
     default:
-      console.error("OpenWeather Refined: Invalid weather provider.");
+      console.error("OpenWeather Remontti: Invalid weather provider.");
       return null;
   }
 }

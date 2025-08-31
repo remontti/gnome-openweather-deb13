@@ -1,6 +1,6 @@
 {
     "name": "OpenWeather Remontti",
-    "description": "Extensão para exibir o clima atual ou de uma localização definida. Fork mantido por Rudimar Remontti, baseado no OpenWeather Refined.\nDados fornecidos por OpenWeatherMap.org, WeatherAPI.com ou VisualCrossing.com.\nSe a localização estiver como \"Minha Localização\", a extensão usa serviços de geolocalização (OpenStreetMap.org / infoip.io).",
+    "description": "Extensão para exibir o clima atual ou de uma localização definida. Fork mantido por Rudimar Remontti, baseado no OpenWeather Remontti.\nDados fornecidos por OpenWeatherMap.org, WeatherAPI.com ou VisualCrossing.com.\nSe a localização estiver como \"Minha Localização\", a extensão usa serviços de geolocalização (OpenStreetMap.org / infoip.io).",
     "shell-version": [ "47", "48" ],
     "url": "https://github.com/remontti/gnome-openweather-deb13",
     "uuid": "openweather-extension@remontti.github.io",

@@ -223,7 +223,7 @@ class SearchResultsWindow extends Adw.PreferencesWindow
       }
       catch(e)
       {
-        console.error("OpenWeather Refined: Error processing results: " + e);
+        console.error("OpenWeather Remontti: Error processing results: " + e);
         return;
       }
 

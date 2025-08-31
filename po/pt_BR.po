@@ -23,8 +23,8 @@ msgstr ""
 "X-Generator: Poedit 3.1.1\n"
 
 #: src/openweathermap.js:88
-msgid "OpenWeather Refined Too Many Requests"
-msgstr "OpenWeather Refined - Muitas requisições"
+msgid "OpenWeather Remontti Too Many Requests"
+msgstr "OpenWeather Remontti - Muitas requisições"
 
 #: src/openweathermap.js:89
 #, javascript-format
@@ -67,8 +67,8 @@ msgstr ""
 "diálogo de preferências."
 
 #: src/extension.js:439
-msgid "OpenWeather Refined: Imported settings from old extension."
-msgstr "OpenWeather Refined: Importe as configurações da extensão antiga."
+msgid "OpenWeather Remontti: Imported settings from old extension."
+msgstr "OpenWeather Remontti: Importe as configurações da extensão antiga."
 
 #: src/extension.js:756 src/extension.js:769
 #, javascript-format
@@ -429,7 +429,7 @@ msgid "Wind Direction Arrows"
 msgstr "Direção do vento usando setas"
 
 #: src/preferences/layoutPage.js:176
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:103
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:103
 msgid "Translate Conditions"
 msgstr "Traduzir condições"
 
@@ -590,7 +590,7 @@ msgid "Provider for getting My Location"
 msgstr "Provedor utilizado para os dados de localização"
 
 #: src/preferences/locationsPage.js:85
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:72
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:72
 msgid "Geolocation Provider"
 msgstr "Geolocalização fornecida por"
 
@@ -764,7 +764,7 @@ msgstr ""
 "Exibe informações meteorológicas de qualquer lugar da Terra no GNOME Shell"
 
 #: src/preferences/aboutPage.js:93
-msgid "OpenWeather Refined Version"
+msgid "OpenWeather Remontti Version"
 msgstr "Versão do OpenWeather"
 
 #: src/preferences/aboutPage.js:105
@@ -882,7 +882,7 @@ msgid "My location refresh interval in minutes"
 msgstr "Intervalo de atualização do clima atual em minutos"
 
 #: src/preferences/generalPage.js:154
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:123
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:123
 msgid "Disable Forecast"
 msgstr "Desativar previsão"
 
@@ -891,7 +891,7 @@ msgid "Disables all fetching and processing of forecast data"
 msgstr "Desativar a atualização e processamento de dados de previsão"
 
 #: src/preferences/generalPage.js:166
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:111
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:111
 msgid "System Icons"
 msgstr "Ícones do sistema"
 
@@ -986,7 +986,7 @@ msgid "Adaptive"
 msgstr "Adaptativo"
 
 #: src/preferences/generalPage.js:328
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:68
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:68
 msgid "Weather Provider"
 msgstr "Meteorologia fornecida por"
 
@@ -1032,19 +1032,19 @@ msgstr "Restaurar Padrões"
 msgid "Restore all settings to the defaults."
 msgstr "Restaurar todas as configurações padrões."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:76
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:76
 msgid "Temperature Unit"
 msgstr "Unidade de temperatura"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:80
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:80
 msgid "Pressure Unit"
 msgstr "Unidade de pressão"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:84
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:84
 msgid "Wind Speed Units"
 msgstr "Unidade de velocidade do vento"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:85
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:85
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/"
 "s', 'knots', 'ft/s' or 'Beaufort'."
@@ -1052,108 +1052,108 @@ msgstr ""
 "Escolha as unidades usadas para velocidade do vento. Os valores permitidos "
 "são \"km/h\", \"mph\", \"m/s\", \"nós\", 'ft/s\" ou \"Beaufort\"."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:89
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:89
 msgid "Wind Direction by Arrows"
 msgstr "Direção do vento usando setas"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:90
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:90
 msgid "True to display wind direction through arrows rather than letters."
 msgstr "Escolha se quer exibir a direção do vento através de setas ou letras."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:95
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:95
 #, fuzzy
 msgid "DEPRECATED, City to be displayed"
 msgstr "Cidade a ser mostrada"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:99
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:99
 msgid "Index of the city to display by default."
 msgstr "Índice da cidade a ser exibida por padrão."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:107
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:107
 msgid "Provider multilingual Support (weather descriptions only)"
 msgstr "Suporte multi-idiomas do Provedor (descrições do clima)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:115
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:115
 msgid "True to show temperature in the panel"
 msgstr "Mostrar a temperatura no painel"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:119
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:119
 msgid "True to show conditions in the panel."
 msgstr "Mostrar as condições do clima no painel"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:127
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:127
 msgid "Conditions in Forecast"
 msgstr "Condições na previsão"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:131
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:135
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:131
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:135
 msgid "Position in Panel"
 msgstr "Posição no painel"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:139
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:139
 msgid "Horizontal position of menu-box."
 msgstr "Posição horizontal da caixa de menu."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:143
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:143
 msgid "Refresh interval (actual weather)"
 msgstr "Intervalo de atualização (clima atual)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:147
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:147
 msgid "Maximum length of the location text"
 msgstr "Tamanho máximo do texto de localização"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:151
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:151
 msgid "Refresh interval (forecast)"
 msgstr "Intervalo de atualização (previsão)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:155
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:155
 msgid "Center forecastbox."
 msgstr "Previsão central."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:159
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:159
 msgid "Always keep forecast expanded"
 msgstr "Manter a previsão extendida"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:163
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:163
 msgid "Number of days in forecast"
 msgstr "Número de dias de previsão"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:167
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:167
 msgid "Maximum number of digits after the decimal point for temperature"
 msgstr "Número máximo de dígitos decimais para a temperatura no painel"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:171
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:171
 msgid "Maximum number of digits after the decimal point for pressure"
 msgstr "Número máximo de dígitos decimais para a pressão no painel"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:175
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:175
 msgid "Maximum number of digits after the decimal point for wind speed"
 msgstr "Número máximo de dígitos decimais para a velocidade do vento no painel"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:180
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:180
 msgid "DEPRECATED. Your personal API key from openweathermap.org"
 msgstr "API key pessoal do openweathermap.org"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:185
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:185
 #, fuzzy
 msgid "DEPRECATED. Your personal API key from WeatherAPI.com"
 msgstr "API key pessoal do openweathermap.org"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:190
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:190
 #, fuzzy
 msgid "DEPRECATED. Use the extensions default API key from openweathermap.org"
 msgstr "Use a API key padrão da extensão do openweathermap.org"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:195
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:195
 #, fuzzy
 msgid "DEPRECATED. Use the extensions default API key from WeatherAPI.com"
 msgstr "Use a API key padrão da extensão do openweathermap.org"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:199
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:199
 msgid "Your personal AppKey from developer.mapquest.com"
 msgstr "AppKey pessoal do developer.mapquest.com"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:203
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:203
 msgid ""
 "Time format for hours. Possible values are '24hr' for 24-hour clock, '12hr' "
 "for AM/PM, and 'system' to follow the GNOME setting."
@@ -1161,70 +1161,70 @@ msgstr ""
 "Formato para as horas. Valores possíveis são '24 horas', '12 horas', "
 "e 'Sistema' para seguir a configuração do GNOME."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:207
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:207
 msgid "Seconds to delay popup initialization and data fetch on the first load"
 msgstr ""
 "Segundos de atraso do popup e de atualização de dados durante a incialização"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:211
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:211
 msgid "Default width for the preferences window"
 msgstr "Largura padrão da janela de preferências"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:215
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:215
 msgid "Default height for the preferences window"
 msgstr "Altura padrão da janela de preferêcias"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:219
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:219
 msgid ""
 "High contrast style to use, possible values are 'none', 'white', or 'black'."
 msgstr ""
 "Estilo de alto contraste a ser utilizado, valores possíveis são 'desligado', 'branco', ou 'preto'."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:223
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:223
 msgid "True to show the sunset/sunrise in the panel."
 msgstr "Mostrar o nascer/pôr do sol no painel."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:227
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:227
 msgid ""
 "True to show the sunset/sunrise in the panel before the temperature/"
 "conditions if enabled."
 msgstr "Mostrar nascer/pôr do sol no painel antes da temperatura/condições."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:231
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:231
 msgid "False if this extension has never been initialized before."
 msgstr "Falso caso a extensão nunca foi inicializada."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:235
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:235
 msgid "How often, in minutes, to re-fetch My Location if selected."
 msgstr "" 
 "Frequência, em minutos, para buscar novamente os dados de "
 "localização."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:239
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:239
 msgid "True to cut off the \"F\" or \"C\" after the degree symbol."
 msgstr "Retirar o 'F' ou 'C' após o símbolo de graus."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:243
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:243
 msgid "Freezes the settings changed listener; user should not change this."
 msgstr "Congela o listener de configurações; usuário não deve alterar."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:248
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:248
 msgid "List of locations."
 msgstr "Lista de locais."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:252
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:252
 msgid "Provider to use for \"My Location.\""
 msgstr "Provedor utilizado para os dados de localização"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:256
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:256
 msgid "Empty or the last initialization error message."
 msgstr "Vazio ou mensagem de erro da última inicialização."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:260
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:260
 msgid "Custom keys for weather providers."
 msgstr "Chaves customizadas para provedores de clima."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:264
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:264
 msgid "Get a notification when precipitation starts."
 msgstr "Receba uma notificação quando começar a precipitar."
 

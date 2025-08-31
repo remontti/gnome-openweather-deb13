@@ -44,9 +44,9 @@ msgstr ""
 "voeg de persoonlijke api-sleutel toe in de voorkeuren."
 
 #: src/extension.js:432
-msgid "OpenWeather Refined: Imported settings from old extension."
+msgid "OpenWeather Remontti: Imported settings from old extension."
 msgstr ""
-"OpenWeather Refined: de voorkeuren zijn geïmporteerd uit de oude extensie."
+"OpenWeather Remontti: de voorkeuren zijn geïmporteerd uit de oude extensie."
 
 #: src/extension.js:745 src/extension.js:758
 #, javascript-format
@@ -380,7 +380,7 @@ msgid "My location refresh interval in minutes"
 msgstr "Werk mijn locatie elke x-aantal minuten bij"
 
 #: src/preferences/generalPage.js:134
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:122
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:122
 msgid "Disable Forecast"
 msgstr "Weersvoorspelling uitschakelen"
 
@@ -389,7 +389,7 @@ msgid "Disables all fetching and processing of forecast data"
 msgstr "Schakel het ophalen en verwerken van weergegevens uit"
 
 #: src/preferences/generalPage.js:146
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:110
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:110
 msgid "System Icons"
 msgstr "Systeempictogrammen gebruiken"
 
@@ -476,7 +476,7 @@ msgid "Provider"
 msgstr "Weerdienst"
 
 #: src/preferences/generalPage.js:287
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:67
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:67
 msgid "Weather Provider"
 msgstr "Weerdienst"
 
@@ -600,7 +600,7 @@ msgid "Wind Direction Arrows"
 msgstr "Windrichting met pijlen"
 
 #: src/preferences/layoutPage.js:176
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:102
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:102
 msgid "Translate Conditions"
 msgstr "Vertaalde weersomstandigheden tonen"
 
@@ -783,8 +783,8 @@ msgid "Unknown"
 msgstr "Onbekend"
 
 #: src/preferences/aboutPage.js:84
-msgid "OpenWeather Refined Version"
-msgstr "OpenWeather Refined, versie"
+msgid "OpenWeather Remontti Version"
+msgstr "OpenWeather Remontti, versie"
 
 #: src/preferences/aboutPage.js:96
 msgid "Git Version"
@@ -855,7 +855,7 @@ msgid "Provider for getting My Location"
 msgstr "De dienst die gebruikt wordt om uw locatie te bepalen"
 
 #: src/preferences/locationsPage.js:85
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:71
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:71
 msgid "Geolocation Provider"
 msgstr "Geolocatiedienst"
 
@@ -961,19 +961,19 @@ msgstr "Annuleren"
 msgid "%s has been deleted"
 msgstr "‘%s’ is verwijderd"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:75
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:75
 msgid "Temperature Unit"
 msgstr "Temperatuureenheid"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:79
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:79
 msgid "Pressure Unit"
 msgstr "Luchtdrukeenheid"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:83
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:83
 msgid "Wind Speed Units"
 msgstr "Windsnelheideenheden"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:84
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:84
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/"
 "s', 'knots', 'ft/s' or 'Beaufort'."
@@ -981,108 +981,108 @@ msgstr ""
 "Kies de te gebruiken windsnelheideenheden. Toegestane waarden: ‘kpu’, ‘mpu’, "
 "‘m/s’, ‘knopen’, ‘vt/s’, ‘Beaufort’."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:88
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:88
 msgid "Wind Direction by Arrows"
 msgstr "Windrichting met pijlen"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:89
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:89
 msgid "True to display wind direction through arrows rather than letters."
 msgstr ""
 "Stel in op ‘true’ om de windrichting aan te geven met pijlen in plaats van "
 "letters."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:94
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:94
 msgid "DEPRECATED, City to be displayed"
 msgstr "VEROUDERD: de te tonen locatie"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:98
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:98
 msgid "Index of the city to display by default."
 msgstr "De index van de te tonen standaardlocatie."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:106
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:106
 msgid "OpenWeatherMap Multilingual Support (weather descriptions only)"
 msgstr ""
 "Meertalige OpenWeatherMap-ondersteuning (alleen van toepassing "
 "beschrijvingen)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:114
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:114
 msgid "True to show temperature in the panel"
 msgstr "Stel in op ‘true’ om de temperatuur op de bovenbalk te tonen."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:118
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:118
 msgid "True to show conditions in the panel."
 msgstr "Stel in op ‘true’ om de weersomstandigheden op de bovenbalk te tonen."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:126
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:126
 msgid "Conditions in Forecast"
 msgstr "Weersomstandigheden in voorspelling tonen"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:130
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:134
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:130
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:134
 msgid "Position in Panel"
 msgstr "Locatie op bovenbalk"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:138
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:138
 msgid "Horizontal position of menu-box."
 msgstr "De horizontale locatie van het menu."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:142
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:142
 msgid "Refresh interval (actual weather)"
 msgstr "Werk het weer elke x-aantal minuten bij (huidig weer)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:146
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:146
 msgid "Maximum length of the location text"
 msgstr "Maximale lengte van locatielabel"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:150
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:150
 msgid "Refresh interval (forecast)"
 msgstr "Werk de weersvoorspelling elke x-aantal minuten bij"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:154
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:154
 msgid "Center forecastbox."
 msgstr "Centreer de weersvoorspelling."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:158
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:158
 msgid "Always keep forecast expanded"
 msgstr "Voorspelling altijd uitklappen"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:162
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:162
 msgid "Number of days in forecast"
 msgstr "Aantal dagen op vooruitzicht"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:166
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:166
 msgid "Maximum number of digits after the decimal point for temperature"
 msgstr "Maximaal aantal getallen na de komma (temperatuur)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:170
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:170
 msgid "Maximum number of digits after the decimal point for pressure"
 msgstr "Maximaal aantal getallen na de komma (luchtdruk)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:174
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:174
 msgid "Maximum number of digits after the decimal point for wind speed"
 msgstr "Maximaal aantal getallen na de komma (windsnelheid)"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:178
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:178
 msgid "Your personal API key from openweathermap.org"
 msgstr "Persoonlijke api-sleutel van openweathermap.org"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:182
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:182
 msgid "Your personal API key from WeatherAPI.com"
 msgstr "Persoonlijke api-sleutel van WeatherAPI.com"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:186
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:186
 msgid "Use the extensions default API key from openweathermap.org"
 msgstr "Meegeleverde api-sleutel van openweathermap.org gebruiken"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:190
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:190
 msgid "Use the extensions default API key from WeatherAPI.com"
 msgstr "Meegeleverde api-sleutel van WeatherAPI.com gebruiken"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:194
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:194
 msgid "Your personal AppKey from developer.mapquest.com"
 msgstr "Persoonlijke AppKey van developer.mapquest.com"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:198
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:198
 msgid ""
 "Time format for hours. Possible values are '24hr' for 24-hour clock, '12hr' "
 "for AM/PM, and 'system' to follow the GNOME setting."
@@ -1090,33 +1090,33 @@ msgstr ""
 "De tijdsopmaak. Toegestane waarden: ‘24hr’ voor 24-uursklok, ‘12hr’ voor 12-"
 "uursklok (AM/PM), ‘system’ voor het volgen van de systeemvoorkeuren."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:202
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:202
 msgid "Seconds to delay popup initialization and data fetch on the first load"
 msgstr ""
 "Aantal seconden alvorens het opmaken van de pop-up en ophalen van gegevens "
 "na de eerste opstart"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:206
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:206
 msgid "Default width for the preferences window"
 msgstr "Standaardbreedte van het voorkeurenvenster"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:210
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:210
 msgid "Default height for the preferences window"
 msgstr "Standaardhoogte van het voorkeurenvenster"
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:214
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:214
 msgid ""
 "High contrast style to use, possible values are 'none', 'white', or 'black'."
 msgstr ""
 "De te gebruiken hogecontraststijl. Toegestane waarden: ‘geen’, ‘wit’ of "
 "‘zwart’."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:218
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:218
 msgid "True to show the sunset/sunrise in the panel."
 msgstr ""
 "Stel in op ‘true’ om de zonsopkomst en -ondergang te tonen op de bovenbalk."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:222
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:222
 msgid ""
 "True to show the sunset/sunrise in the panel before the temperature/"
 "conditions if enabled."
@@ -1124,31 +1124,31 @@ msgstr ""
 "Stel in op ‘true’ om de zonsopkomst en -ondergang op de bovenbalk te tonen "
 "voorafgaand aan de weersomstandigheden."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:226
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:226
 msgid "False if this extension has never been initialized before."
 msgstr "Stel in op ‘false’ als deze uitbreiding nog nooit gebruikt is."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:230
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:230
 msgid "How often, in minutes, to re-fetch My Location if selected."
 msgstr "Hoe vaak uw locatie opnieuw dient te worden bepaald (in minuten)."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:234
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:234
 msgid "True to cut off the \"F\" or \"C\" after the degree symbol."
 msgstr "Stel in om ‘F’ en ‘C’ niet te tonen achter het gradensymbool."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:238
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:238
 msgid "Freezes the settings changed listener; user should not change this."
 msgstr "Bepaalt de dienst. Alleen veranderen indien nodig."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:243
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:243
 msgid "List of locations."
 msgstr "Een lijst met locaties."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:247
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:247
 msgid "Provider to use for \"My Location.\""
 msgstr "De te gebruiken dienst om uw locatie te bepalen."
 
-#: schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml:251
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:251
 msgid "Empty or the last initialization error message."
 msgstr "Blanco of de vorige foutmelding na opstarten."
 

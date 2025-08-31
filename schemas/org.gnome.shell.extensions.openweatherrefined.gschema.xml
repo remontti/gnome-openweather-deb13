@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schemalist gettext-domain="gnome-shell-extension-openweatherrefined">
-  <enum id="org.gnome.shell.extensions.openweatherrefined.weather-provider">
+<schemalist gettext-domain="gnome-shell-extension-openweather">
+  <enum id="org.gnome.shell.extensions.openweather.weather-provider">
     <value value="0" nick="default" />
     <value value="1" nick="openweathermap" />
     <value value="2" nick="weatherapicom" />
     <value value="3" nick="visualcrossing" />
   </enum>
-  <enum id="org.gnome.shell.extensions.openweatherrefined.geolocation-provider">
+  <enum id="org.gnome.shell.extensions.openweather.geolocation-provider">
     <value value="0" nick="openstreetmaps"/>
     <!-- Geocode.farm (1) is deprecated and will be changed to OSM (0) -->
     <value value="1" nick="geocode"/>
     <value value="2" nick="mapquest"/>
   </enum>
-  <enum id="org.gnome.shell.extensions.openweatherrefined.unit">
+  <enum id="org.gnome.shell.extensions.openweather.unit">
     <value value="0" nick="celsius"/>
     <value value="1" nick="fahrenheit"/>
     <value value="2" nick="kelvin"/>
@@ -22,7 +22,7 @@
     <value value="6" nick="delisle"/>
     <value value="7" nick="newton"/>
   </enum>
-  <enum id="org.gnome.shell.extensions.openweatherrefined.pressure-unit">
+  <enum id="org.gnome.shell.extensions.openweather.pressure-unit">
     <value value="0" nick="hPa"/>
     <value value="1" nick="inHg"/>
     <value value="2" nick="bar"/>
@@ -35,7 +35,7 @@
     <value value="9" nick="mmHg"/>
     <value value="10" nick="mbar"/>
   </enum>
-  <enum id="org.gnome.shell.extensions.openweatherrefined.wind-speed-unit">
+  <enum id="org.gnome.shell.extensions.openweather.wind-speed-unit">
     <value value="0" nick="kph"/>
     <value value="1" nick="mph"/>
     <value value="2" nick="m/s"/>
@@ -43,17 +43,17 @@
     <value value="4" nick="ft/s"/>
     <value value="5" nick="Beaufort"/>
   </enum>
-  <enum id="org.gnome.shell.extensions.openweatherrefined.position">
+  <enum id="org.gnome.shell.extensions.openweather.position">
     <value value="0" nick="center"/>
     <value value="1" nick="right"/>
     <value value="2" nick="left"/>
   </enum>
-    <enum id="org.gnome.shell.extensions.openweatherrefined.clock-format">
+    <enum id="org.gnome.shell.extensions.openweather.clock-format">
     <value value="0" nick="24h" />
     <value value="1" nick="12h" />
     <value value="2" nick="system" />
   </enum>
-  <enum id="org.gnome.shell.extensions.openweatherrefined.language">
+  <enum id="org.gnome.shell.extensions.openweather.language">
     <value value="0" nick="system" />
     <value value="1" nick="arabic" />
     <value value="2" nick="basque" />
@@ -91,38 +91,38 @@
     <value value="34" nick="ukrainian" />
     <value value="35" nick="vietnamese" />
   </enum>
-  <enum id="org.gnome.shell.extensions.openweatherrefined.hi-contrast">
+  <enum id="org.gnome.shell.extensions.openweather.hi-contrast">
     <value value="0" nick="none"></value>
     <value value="1" nick="white"></value>
     <value value="2" nick="black"></value>
   </enum>
-  <enum id="org.gnome.shell.extensions.openweatherrefined.my-loc-prov">
+  <enum id="org.gnome.shell.extensions.openweather.my-loc-prov">
     <value value="0" nick="geoclue"></value>
     <value value="1" nick="ipinfoio"></value>
   </enum>
-  <schema path="/org/gnome/shell/extensions/openweatherrefined/" id="org.gnome.shell.extensions.openweatherrefined">
-    <key name="weather-provider" enum="org.gnome.shell.extensions.openweatherrefined.weather-provider">
+  <schema path="/org/gnome/shell/extensions/openweather/" id="org.gnome.shell.extensions.openweather">
+    <key name="weather-provider" enum="org.gnome.shell.extensions.openweather.weather-provider">
       <default>'default'</default>
       <summary>Weather Provider</summary>
     </key>
-    <key name="geolocation-provider" enum="org.gnome.shell.extensions.openweatherrefined.geolocation-provider">
+    <key name="geolocation-provider" enum="org.gnome.shell.extensions.openweather.geolocation-provider">
       <default>'openstreetmaps'</default>
       <summary>Geolocation Provider</summary>
     </key>
-    <key name="unit" enum="org.gnome.shell.extensions.openweatherrefined.unit">
+    <key name="unit" enum="org.gnome.shell.extensions.openweather.unit">
       <default>'celsius'</default>
       <summary>Temperature Unit</summary>
     </key>
-    <key name="pressure-unit" enum="org.gnome.shell.extensions.openweatherrefined.pressure-unit">
+    <key name="pressure-unit" enum="org.gnome.shell.extensions.openweather.pressure-unit">
       <default>'kPa'</default>
       <summary>Pressure Unit</summary>
     </key>
-    <key name="wind-speed-unit" enum="org.gnome.shell.extensions.openweatherrefined.wind-speed-unit">
+    <key name="wind-speed-unit" enum="org.gnome.shell.extensions.openweather.wind-speed-unit">
       <default>'kph'</default>
       <summary>Wind Speed Units</summary>
       <description>Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/s', 'knots', 'ft/s' or 'Beaufort'.</description>
     </key>
-    <key name="language" enum="org.gnome.shell.extensions.openweatherrefined.language">
+    <key name="language" enum="org.gnome.shell.extensions.openweather.language">
       <default>'system'</default>
       <summary>Language</summary>
       <description>Select the language for the app. Possible values: 'System', 'Arabic', 'Basque', 'Belarusian', 'Bulgarian', 'Catalan', 'Chinese (Simplified)', 'Chinese (Traditional)', 'Czech', 'Danish', 'Dutch', 'English', 'Finnish', 'French', 'German', 'Greek', 'Hebrew', 'Hungarian', 'Indonesian', 'Italian', 'Japanese', 'Lithuanian', 'Norwegian Bokmål', 'Polish', 'Portuguese', 'Portuguese (Brazil)', 'Romanian', 'Russian', 'Serbian', 'Serbian (Latin)', 'Slovak', 'Spanish', 'Swedish', 'Turkish', 'Ukrainian', 'Vietnamese'</description>
@@ -169,7 +169,7 @@
       <default>true</default>
       <summary>Conditions in Forecast</summary>
     </key>
-    <key name="position-in-panel" enum="org.gnome.shell.extensions.openweatherrefined.position">
+    <key name="position-in-panel" enum="org.gnome.shell.extensions.openweather.position">
       <default>'right'</default>
       <summary>Position in Panel</summary>
     </key>
@@ -241,7 +241,7 @@
       <default>''</default>
       <summary>Your personal AppKey from developer.mapquest.com</summary>
     </key>
-    <key name="clock-format" enum="org.gnome.shell.extensions.openweatherrefined.clock-format">
+    <key name="clock-format" enum="org.gnome.shell.extensions.openweather.clock-format">
       <default>'system'</default>
       <summary>Time format for hours. Possible values are '24hr' for 24-hour clock, '12hr' for AM/PM, and 'system' to follow the GNOME setting.</summary>
     </key>
@@ -257,7 +257,7 @@
       <default>600</default>
       <summary>Default height for the preferences window</summary>
     </key>
-    <key name="hi-contrast" enum="org.gnome.shell.extensions.openweatherrefined.hi-contrast">
+    <key name="hi-contrast" enum="org.gnome.shell.extensions.openweather.hi-contrast">
       <default>'none'</default>
       <summary>High contrast style to use, possible values are 'none', 'white', or 'black'.</summary>
     </key>
@@ -290,7 +290,7 @@
       <default>[ (1, '', 1, '') ]</default>
       <summary>List of locations.</summary>
     </key>
-    <key name="my-loc-prov" enum="org.gnome.shell.extensions.openweatherrefined.my-loc-prov">
+    <key name="my-loc-prov" enum="org.gnome.shell.extensions.openweather.my-loc-prov">
       <default>'geoclue'</default>
       <summary>Provider to use for "My Location."</summary>
     </key>

@@ -69,7 +69,7 @@ class AboutPage extends Adw.PreferencesPage {
       pixel_size: 100,
     });
     let openWeatherLabel = new Gtk.Label({
-      label: '<span size="larger"><b>OpenWeather Refined</b></span>',
+      label: '<span size="larger"><b>OpenWeather Remontti</b></span>',
       use_markup: true,
       margin_bottom: 15,
       vexpand: true,
@@ -97,7 +97,7 @@ class AboutPage extends Adw.PreferencesPage {
 
     // Extension version
     let openWeatherVersionRow = new Adw.ActionRow({
-      title: _("OpenWeather Refined Version"),
+      title: _("OpenWeather Remontti Version"),
     });
     openWeatherVersionRow.add_suffix(
       new Gtk.Label({

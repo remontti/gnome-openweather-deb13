@@ -9,9 +9,9 @@ PREFS_MODULES     := $(shell find ./src/preferences -type f -printf '%f ')
 PREFS_FILES	     	:= $(addprefix ./src/preferences/, $(PREFS_MODULES))
 EXTRA_DIRECTORIES := media
 TOLOCALIZE        := $(SRC_FILES) $(PREFS_FILES) \
-             schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml
+             schemas/org.gnome.shell.extensions.openweather.gschema.xml
 MSGSRC            := $(wildcard po/*.po)
-SCHEMA_XML			  := ./schemas/org.gnome.shell.extensions.openweatherrefined.gschema.xml
+SCHEMA_XML			  := ./schemas/org.gnome.shell.extensions.openweather.gschema.xml
 
 # Packagers: Use DESTDIR for system wide installation
 ifeq ($(strip $(DESTDIR)),)
@@ -121,7 +121,7 @@ else ifneq ($(strip $(GIT_VER)),)
 endif
 
 help:
-	printf '\n** OpenWeather Refined v%s (%s) **\n' `grep -oP --color=never '(?<="version-name": ")[^"]*' ./metadata.json` "$(GIT_VER)"
+	printf '\n** OpenWeather Remontti v%s (%s) **\n' `grep -oP --color=never '(?<="version-name": ")[^"]*' ./metadata.json` "$(GIT_VER)"
 	printf "Switch git to latest release (recommended if you're just trying to install):\n"
 	printf '\tgit switch --detach latest\n'
 	printf 'Build to output directory (./_build) and regenerate translation files:\n'

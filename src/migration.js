@@ -1,18 +1,18 @@
 /*
-   This file is part of OpenWeather Refined (gnome-shell-extension-openweatherrefined).
+   This file is part of OpenWeather Remontti (gnome-shell-extension-openweather).
 
-   OpenWeather Refined is free software: you can redistribute it and/or modify
+   OpenWeather Remontti is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by the
    Free Software Foundation, either version 3 of the License, or (at your
    option) any later version.
 
-   OpenWeather Refined is distributed in the hope that it will be useful,
+   OpenWeather Remontti is distributed in the hope that it will be useful,
    but WITHOUT ANY WARRANTY; without even the implied warranty of
    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    See the GNU General Public License for more details.
 
    You should have received a copy of the GNU General Public License along with
-   OpenWeather Refined. If not, see <https://www.gnu.org/licenses/>.
+   OpenWeather Remontti. If not, see <https://www.gnu.org/licenses/>.
 
    Copyright 2024 TealPenguin
 */
@@ -23,7 +23,7 @@ import { GeolocationProvider, WeatherPressureUnits } from "./constants.js";
 import { Loc, NAME_TYPE, PLACE_TYPE, settingsSetLocs, settingsGetLocsCount, settingsSetKeys } from "./locs.js";
 import { WeatherProvider } from "./getweather.js";
 
-const THIS_SCHEMA_ID   = "org.gnome.shell.extensions.openweatherrefined";
+const THIS_SCHEMA_ID   = "org.gnome.shell.extensions.openweather";
 const OICKLE_SCHEMA_ID = "org.gnome.shell.extensions.openweather";
 
 function tryMigrateOickle(settings)
@@ -47,7 +47,7 @@ function tryMigrateOickle(settings)
     settings.set_value(k.get_value());
   }
 
-  console.log("OpenWeather Refined: Imported settings from old extension.");
+  console.log("OpenWeather Remontti: Imported settings from old extension.");
   return true;
 }
 
@@ -78,7 +78,7 @@ function tryMigratePre128(settings)
   settings.reset("city");
   settingsSetLocs(settings, arr);
 
-  console.log("OpenWeather Refined: Migrated from cities to v128 locs.");
+  console.log("OpenWeather Remontti: Migrated from cities to v128 locs.");
   return true;
 }
 

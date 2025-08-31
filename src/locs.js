@@ -1,18 +1,18 @@
 /*
-   This file is part of OpenWeather Refined (gnome-shell-extension-openweatherrefined).
+   This file is part of OpenWeather Remontti (gnome-shell-extension-openweather).
 
-   OpenWeather Refined is free software: you can redistribute it and/or modify
+   OpenWeather Remontti is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by the
    Free Software Foundation, either version 3 of the License, or (at your
    option) any later version.
 
-   OpenWeather Refined is distributed in the hope that it will be useful,
+   OpenWeather Remontti is distributed in the hope that it will be useful,
    but WITHOUT ANY WARRANTY; without even the implied warranty of
    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    See the GNU General Public License for more details.
 
    You should have received a copy of the GNU General Public License along with
-   OpenWeather Refined. If not, see <https://www.gnu.org/licenses/>.
+   OpenWeather Remontti. If not, see <https://www.gnu.org/licenses/>.
 
    Copyright 2024 TealPenguin
 */
@@ -54,32 +54,32 @@ export class Loc
     if(typeof nameType !== "number")
     {
       error = true;
-      console.error(`OpenWeather Refined: NameType (${nameType}) not a number.`);
+      console.error(`OpenWeather Remontti: NameType (${nameType}) not a number.`);
     }
     this.#nameType = nameType;
 
     if(typeof name !== "string")
     {
       error = true;
-      console.error(`OpenWeather Refined: Name (${name}) not a string.`);
+      console.error(`OpenWeather Remontti: Name (${name}) not a string.`);
     }
     this.#name = name;
 
     if(typeof placeType !== "number")
     {
       error = true;
-      console.error(`OpenWeather Refined: PlaceType (${placeType}) not a number.`);
+      console.error(`OpenWeather Remontti: PlaceType (${placeType}) not a number.`);
     }
     this.#placeType = placeType;
 
     if(typeof place !== "string")
     {
       error = true;
-      console.error(`OpenWeather Refined: Place (${place}) not a string.`);
+      console.error(`OpenWeather Remontti: Place (${place}) not a string.`);
     }
     this.#place = place;
 
-    if(error) console.trace("OpenWeather Refined: Loc ctor backtrace");
+    if(error) console.trace("OpenWeather Remontti: Loc ctor backtrace");
   }
 
   /**
@@ -90,8 +90,8 @@ export class Loc
   {
     if(gettext === undefined)
     {
-      console.error("OpenWeather Refined: Loc#getName did not receive a gettext argument. Pass 'null' for no gettext.");
-      console.trace("OpenWeather Refined backtrace");
+      console.error("OpenWeather Remontti: Loc#getName did not receive a gettext argument. Pass 'null' for no gettext.");
+      console.trace("OpenWeather Remontti backtrace");
     }
 
     switch(this.#nameType)
@@ -101,7 +101,7 @@ export class Loc
       case NAME_TYPE.MY_LOC:
         return gettext ? gettext("My Location") : "My Location";
       default:
-        console.warn(`OpenWeather Refined: Invalid name type (${this.#nameType}).`);
+        console.warn(`OpenWeather Remontti: Invalid name type (${this.#nameType}).`);
         return null;
     }
   }
@@ -144,7 +144,7 @@ export class Loc
           return [ 0.0, 0.0 ];
         }
       default:
-        console.warn(`OpenWeather Refined: Invalid place type (${this.#placeType}).`);
+        console.warn(`OpenWeather Remontti: Invalid place type (${this.#placeType}).`);
         return null;
     }
   }
@@ -164,7 +164,7 @@ export class Loc
         info = getCachedLocInfo();
         return info ? [ 0, 0 ] : [ info.lat, info.lon ];
       default:
-        console.warn(`OpenWeather Refined: Invalid place type (${this.#placeType}).`);
+        console.warn(`OpenWeather Remontti: Invalid place type (${this.#placeType}).`);
         return null;
     }
   }
@@ -173,7 +173,7 @@ export class Loc
   {
     if(gettext === undefined)
     {
-      console.error("OpenWeather Refined: Loc#getPlaceDisplay did not receive a gettext argument. Pass 'null' for no gettext.");
+      console.error("OpenWeather Remontti: Loc#getPlaceDisplay did not receive a gettext argument. Pass 'null' for no gettext.");
     }
 
     let coords;
@@ -185,7 +185,7 @@ export class Loc
       case PLACE_TYPE.MY_LOC:
         return gettext ? gettext("My Location") : "My Location";
       default:
-        console.warn(`OpenWeather Refined: Invalid place type (${this.#placeType}).`);
+        console.warn(`OpenWeather Remontti: Invalid place type (${this.#placeType}).`);
         return null;
     }
   }
@@ -270,7 +270,7 @@ function fromLocsGVariant(val)
     let tupleCount = tuple.n_children();
     if(tupleCount !== 4)
     {
-      console.error(`OpenWeather Refined: 'locs' tuple of count ${tupleCount}, not 4.`);
+      console.error(`OpenWeather Remontti: 'locs' tuple of count ${tupleCount}, not 4.`);
       return [ ];
     }
 
