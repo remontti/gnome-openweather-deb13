@@ -1,7 +1,7 @@
 # Basic Makefile
 
-PKG_NAME = gnome-shell-extension-openweatherrefined
-UUID = openweather-extension@penguin-teal.github.io
+PKG_NAME = gnome-shell-extension-openweather
+UUID = openweather-extension@remontti.github.io
 BASE_MODULES = metadata.json COPYING AUTHORS
 SRC_MODULES       := $(shell find ./src -maxdepth 1 -type f -printf '%f ')
 SRC_FILES		      := $(addprefix ./src/, $(SRC_MODULES))
